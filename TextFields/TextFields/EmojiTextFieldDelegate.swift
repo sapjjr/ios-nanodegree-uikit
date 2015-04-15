@@ -16,6 +16,7 @@ class EmojiTextFieldDelegate : NSObject, UITextFieldDelegate {
     override init() {
         super.init()
         
+
         translations["heart"] = "\u{0001F496}"
         translations["fish"] = "\u{E522}"
         translations["bird"] = "\u{E523}"
